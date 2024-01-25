@@ -1,0 +1,10 @@
+entrance = 5
+apartment = 20
+floor_apartment = 4
+print("в ведите номер квартиры")
+apartment_number = input()
+ap = int(apartment_number)
+p=(ap-1)//apartment
+print("номер подъезда - ",p+1)
+fl = (ap-1) % 20 // 4 + 1
+print("номер этажа - ",fl)
